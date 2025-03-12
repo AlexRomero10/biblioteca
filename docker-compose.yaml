@@ -4,7 +4,7 @@ services:
     image: aleromero10/biblioteca:v1
     restart: always
     environment:
-      BASE_URL: 'http://localhost:8080/'
+      BASE_URL: 'http://172.22.8.20:8081/'
       MYSQL_HOST: biblio-db
       MYSQL_DATABASE: biblioteca
       MYSQL_USER: usuario
